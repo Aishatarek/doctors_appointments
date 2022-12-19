@@ -1,0 +1,91 @@
+.thesearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thesearch select,.thesearch .btn{
+    width: 200px;
+}
+.thesignin{
+padding: 100px 200px;
+background: linear-gradient(to right, #da8cff, #9a55ff);
+min-height: 100vh;
+}
+.thesignin h3{
+  text-align: center;
+  color: #9a55ff;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.thesignin .card{
+background-color: white;
+}
+@media screen and (max-width: 768px) {
+  .table th,
+  .table td {
+    padding: 10px 5px !important;
+    font-size: 10px !important;
+  }
+  .table th p,
+  .table td p {
+    font-size: 10px !important;
+  }
+  .thesearch select,
+  .thesearch .btn {
+    padding: 10px;
+  }
+  .content-wrapper{
+    padding: 5px !important;
+  }
+  /* .maindashboard .btn{
+    padding: 5px !important;
+  } */
+  .thesearch .btn-gradient-primary{
+    margin-top: 20px;
+  }
+  .thesignin{
+    padding: 100px 30px;
+    }
+}
+@media screen and (max-width: 576px) {
+  .maindashboard .content-wrapper {
+    padding: 10px 5px !important;
+  }
+  .maindashboard .card-body {
+    padding: 20px 5px !important;
+  }
+  .table th,
+  .table td {
+    font-size: 8px !important;
+
+  }
+  .table th p,
+  .table td p {
+
+    font-size: 8px !important;
+
+  }
+  .thesearch {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .thesearch select,
+  .thesearch .btn {
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 0px !important;
+  }
+}
+/* @media screen and (max-width: 375px) {
+    .table th,
+    .table td {
+      font-size: 5px !important;
+  
+    }
+    .table th p,
+    .table td p {
+  
+      font-size: 5px !important;
+  
+    }
+} */
